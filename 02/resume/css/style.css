@@ -1,5 +1,5 @@
  body {
- 	background-color: #B6CFD7;
+ 	background-color: #D3F0EF;
  	font-family: Arial;
  	padding-top: 60px;
  }
@@ -17,51 +17,78 @@
  	padding: 50px;
 }
 
+nav {
+	text-align: center;
+	color: #E7748B;
+ }
 
- a {
+a:link {
  	font-weight: bold;
- 	color: #05080C;
+ 	color: #012455;
  	text-align: center;
  }
 
- nav {
-	text-align: center;
- }
+ a:visited {
+    color: #A3A9A8;
+}
 
- .active {
+a:hover {
+    color: #E7748B;
+}
+
+.active {
  	text-decoration: none;
  	font-style: italic;
+ 	color: #E7748B;
  }
+
 
 .nameheader {
 	text-align: center;
 	font: 400 100px/.03 'Cookie', Helvetica, sans-serif;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
-  color: #012455;
+  color: #E7748B;
 }
 
 .descriptiontext {
 	text-transform: uppercase;
 	font-family: "PT Sans", Helvetica, sans-serif;
-	font-size: 22px;
+	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 15.4px;
 	font-weight: bold;
-	color: #550124;
+	color: #E7748B;
+	text-align: center;
 }
+
+.subheadtext{
+	text-transform: uppercase;
+	font-family: "PT Sans", Helvetica, sans-serif;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	font-weight: bold;
+	color: #E7748B;
+	text-align: center;
+}
+
+
  img {
  	border-width: 1px;
- 	border-color: #222222;
+ 	border-color: #AEAAAA;
  	border-style: solid;
  }
 
 .img1 {
     float: right;
     padding: 5px;
- 	max-width: 150px;
+ 	max-width: 175px;
     margin-left: 30px;
+    box-shadow: 5px 5px 10px #E2E1E1;
 }
 
 .img2 {
@@ -69,23 +96,28 @@
  	padding: 5px;
  	margin-top: 15px;
  	margin-bottom: 15px;
+ 	box-shadow: 5px 5px 10px #E2E1E1;
 }
 
  hr {
- 	margin-top: 30px;
- 	margin-bottom: 30px;
- }
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+  	border-top: 1px dotted #E7748B;
+}
+
 
  p {
- 	font-family: "PT Sans";
+ 	font-family: "PT Sans", Helvetica, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 24px;
+	color: #444444;
  }
 
  li {
 	font-size: 14px;
  	line-height: 24px;
+ 	color: #444444;
  }
