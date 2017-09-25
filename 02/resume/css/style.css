@@ -1,21 +1,20 @@
  body {
- 	background-color: #F6F6F6;
- 	border-top-width: 5px;
- 	border-top-style: solid;
- 	border-top-color: #222222;
- 	border-bottom-width: 5px;
- 	border-bottom-style: solid;
- 	border-bottom-color: #222222;
- 	padding: 20px;
+ 	background-color: #B6CFD7;
  	font-family: Arial;
- 	padding: 50px;
- 	margin: 30px;
-
+ 	padding-top: 60px;
  }
 
  .content {
     max-width: 600px;
     margin: auto;
+    background-color: #F6F6F6;
+    border-top-width: 5px;
+ 	border-top-style: solid;
+ 	border-top-color: #012455;
+ 	border-bottom-width: 5px;
+ 	border-bottom-style: solid;
+ 	border-bottom-color: #012455;
+ 	padding: 50px;
 }
 
 
@@ -34,24 +33,43 @@
  	font-style: italic;
  }
 
- h1 {
- 	text-align: center;
- 	text-transform: uppercase;
- }
+.nameheader {
+	text-align: center;
+	font: 400 100px/.03 'Cookie', Helvetica, sans-serif;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  color: #012455;
+}
 
- h2 {
- 	text-transform: uppercase;
- }
-
+.descriptiontext {
+	text-transform: uppercase;
+	font-family: "PT Sans", Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	font-weight: bold;
+	color: #550124;
+}
  img {
  	border-width: 1px;
  	border-color: #222222;
  	border-style: solid;
- 	padding: 5px;
- 	max-width: 175px;
- 	float: right;
-    margin-left: 30px;
  }
+
+.img1 {
+    float: right;
+    padding: 5px;
+ 	max-width: 150px;
+    margin-left: 30px;
+}
+
+.img2 {
+ 	max-width: 525px;
+ 	padding: 5px;
+ 	margin-top: 15px;
+ 	margin-bottom: 15px;
+}
 
  hr {
  	margin-top: 30px;
@@ -59,6 +77,15 @@
  }
 
  p {
- 	font-size: 14px;
- 	line-height: 25px;
+ 	font-family: "PT Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 24px;
+ }
+
+ li {
+	font-size: 14px;
+ 	line-height: 24px;
  }
