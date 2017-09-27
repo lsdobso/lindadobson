@@ -50,8 +50,8 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+      margin: 50px;
+      background-color: #BABABA;
 }
 
 
@@ -68,16 +68,127 @@ body {
 }
 
 header {
+  display: block;
+  padding: 40px;
 
 }
 
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+#top {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  height: 350px;
+  border-image: none;
+}
+
+#middle {
+  background-color: #f0efef;
+  width: 100%;
+  margin: auto;
+  height: 250px;
+  padding: 40px;
+}
+
+#middle2 {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  height: 200px;
+  padding: 40px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 40px;
+  text-align: center;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #033048;
+  background-color: #f9e42e;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 25px;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+p.benefits {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+p.benefitsbody {
+  color: #606161;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+
+}
+
+ul {
+  color: #606161;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  list-style-type: circle;
+  padding-left: 60px;
+  padding-top: 18px;
+  line-height: 20px;
+}
+
+blockquote {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+}
+
+p.name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+
+}
+
 
 
 
