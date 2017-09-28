@@ -74,7 +74,7 @@ header {
 }
 
 footer {
-  position: absolute;
+  display: block;
   right: 0;
   bottom: 0;
   left: 0;
@@ -90,16 +90,17 @@ footer {
   background-size: cover;
   width: 100%;
   margin: auto;
-  height: 350px;
-  border-image: none;
+  height: 400px;
 }
 
 #middle {
   background-color: #f0efef;
   width: 100%;
   margin: auto;
-  height: 250px;
-  padding: 40px;
+  height: 275px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 200px;
 }
 
 #middle2 {
@@ -107,8 +108,25 @@ footer {
   background-size: cover;
   width: 100%;
   margin: auto;
-  height: 200px;
-  padding: 40px;
+  height: 230px;
+  padding-top: 60px;
+}
+
+#middle3 {
+  background-color: #f9e42e;
+  width: 100%;
+  margin: auto;
+  height: 60px;
+  padding: 15px;
+  
+}
+#bottom {
+  background-color: #121212;
+  width: 100%;
+  margin: auto;
+  height: 170px;
+  padding: 20px;
+  
 }
 
 h1 {
@@ -164,19 +182,29 @@ ul {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 13px;
-  list-style-type: circle;
+  list-style-type: disc;
   padding-left: 60px;
   padding-top: 18px;
   line-height: 20px;
 }
 
+li{
+  color: #033048;
+}
+
 blockquote {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 30px;
+  margin-right: 100px; 
+  margin-left: 100px; 
+}
+
+.italic {
+  font-style: italic;
 }
 
 p.name {
@@ -185,11 +213,49 @@ p.name {
   font-size: 20px;
   color: #ffffff;
   text-align: center;
-  line-height: 30px;
-
+  line-height: 38px;
 }
 
+button.two {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #033048;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 25px;
+  text-decoration: none;
+}
 
+p.logofooter {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #f9e42e;
+  text-align: center;
+  padding: 15px;
+}
 
+p.copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 20px;
+  }
+
+img.twitter {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+img.facebook {
+  margin-top: 10px;
+  margin-left: 10px;
+}
 
 
