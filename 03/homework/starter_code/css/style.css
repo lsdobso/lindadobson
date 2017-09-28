@@ -63,7 +63,7 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: auto;
 
 }
 
@@ -90,17 +90,19 @@ footer {
   background-size: cover;
   width: 100%;
   margin: auto;
-  height: 400px;
+  height: auto;
+  padding-bottom: 40px;
 }
 
 #middle {
   background-color: #f0efef;
   width: 100%;
   margin: auto;
-  height: 275px;
+  height: 100%;
   padding-top: 40px;
   padding-left: 40px;
-  padding-right: 200px;
+  padding-right: 100px;
+  padding-bottom: 40px;
 }
 
 #middle2 {
@@ -108,15 +110,16 @@ footer {
   background-size: cover;
   width: 100%;
   margin: auto;
-  height: 230px;
-  padding-top: 60px;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #middle3 {
   background-color: #f9e42e;
   width: 100%;
   margin: auto;
-  height: 60px;
+  height: 100%;
   padding: 15px;
   
 }
@@ -124,7 +127,7 @@ footer {
   background-color: #121212;
   width: 100%;
   margin: auto;
-  height: 170px;
+  height: 100%;
   padding: 20px;
   
 }
