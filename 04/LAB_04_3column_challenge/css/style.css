@@ -1,0 +1,41 @@
+
+h2 {
+	font-family: sans-serif;
+	color: #666767;
+}
+
+/*Using Flexbox*/
+
+#threeColumn header,
+#threeColumn footer,
+#threeColumn aside,
+#threeColumn section {
+	background-color: #FEF760;
+	min-height: 100px;
+}
+
+#threeColumn header {
+	margin-bottom: 15px;
+}
+
+#threeColumn footer {
+	margin-top: 15px;
+}
+
+#threeColumn .flexbox {
+	 display: flex;
+}
+
+#threeColumn section {
+	width: 66%;
+}
+
+#threeColumn aside.left {
+	width: 15%;
+	margin-right: 2%;
+}
+
+#threeColumn aside.right {
+	width: 15%;
+	margin-left: 2%;
+}

@@ -1,0 +1,134 @@
+
+h2 {
+	font-family: sans-serif;
+	color: #666767;
+}
+/*Using Floats*/
+
+#twoColumn {
+	margin-bottom: 50px;
+}
+
+#twoColumn header,
+#twoColumn footer,
+#twoColumn aside,
+#twoColumn section {
+	background-color: #D0C2FA;
+	min-height: 100px;
+}
+
+#twoColumn header {
+	margin-bottom: 15px;
+
+}
+
+#twoColumn footer{
+	margin-top: 15px;
+	clear: both;
+
+}
+
+#twoColumn section {
+	float: left;
+	width: 74%;
+	margin-right: 1%;
+}
+
+#twoColumn aside {
+	float: left;
+	width: 25%;
+}
+
+#twoColumn .floats {
+	height: 1px;
+	min-height: 100px;
+}
+
+/*Using Inline-blocks*/
+
+#twoColumn2 header,
+#twoColumn2 footer,
+#twoColumn2 aside,
+#twoColumn2 section {
+	background-color: #F9579B;
+	min-height: 100px;
+}
+
+#twoColumn2 header {
+	margin-bottom: 15px;
+}
+
+#twoColumn2 footer{
+	margin-top: 15px;
+}
+
+#twoColumn2 aside,
+#twoColumn2 section {
+	display: inline-block;
+}
+
+
+#twoColumn2 section {
+	width: 74%;
+	margin-right: 1%;
+}
+
+#twoColumn2 aside {
+	width: 25%;
+}
+
+/*Using Multi-Column*/
+
+#twoColumn3 header,
+#twoColumn3 footer,
+#twoColumn3 aside,
+#twoColumn3 section {
+	background-color: #57F9E3;
+	min-height: 100px;
+}
+
+#twoColumn3 header {
+	margin-bottom: 15px;
+}
+
+#twoColumn3 footer{
+	margin-top: 15px;
+
+}
+
+.multicolumn {
+	column-count: 3;
+}
+
+/*Using Flexbox*/
+
+#twoColumn4 header,
+#twoColumn4 footer,
+#twoColumn4 aside,
+#twoColumn4 section {
+	background-color: #FEF760;
+	min-height: 100px;
+}
+
+#twoColumn4 header {
+	margin-bottom: 15px;
+}
+
+#twoColumn4 footer {
+	margin-top: 15px;
+}
+
+
+#twoColumn4 .flexbox {
+	 display: flex;
+}
+
+#twoColumn4 section {
+	width: 74%;
+	margin-right: 1%;
+}
+
+#twoColumn4 aside {
+	width: 25%;
+}
+
