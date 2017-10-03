@@ -1,0 +1,253 @@
+
+h2 {
+	font-family: sans-serif;
+	color: #4F4101;
+}
+
+h3 {
+	font-family: sans-serif;
+	color: #666767;
+}
+
+/*Using Flexbox: 3 column*/
+
+#threeColumn header,
+#threeColumn footer,
+#threeColumn aside,
+#threeColumn section {
+	background-color: #FEF760;
+	min-height: 100px;
+}
+
+#threeColumn header {
+	margin-bottom: 15px;
+}
+
+#threeColumn footer {
+	margin-top: 15px;
+}
+
+#threeColumn .flexbox {
+	 display: flex;
+}
+
+#threeColumn section {
+	width: 66%;
+}
+
+#threeColumn aside.left {
+	width: 15%;
+	margin-right: 2%;
+}
+
+#threeColumn aside.right {
+	width: 15%;
+	margin-left: 2%;
+}
+
+/*Using Flexbox: Simple Marketing*/
+
+#simplemarketing header,
+#simplemarketing footer,
+#simplemarketing aside,
+#simplemarketing section {
+	background-color: #DAF7A6;
+	min-height: 100px;
+}
+
+#simplemarketing header {
+	margin-bottom: 15px;
+}
+
+#simplemarketing footer {
+	margin-top: 15px;
+}
+
+#simplemarketing .flexbox {
+	 display: flex;
+	 flex-direction: row;
+}
+
+#simplemarketing aside.left {
+	width: 49%;
+	margin-right: 1%;
+}
+
+#simplemarketing aside.right {
+	width: 49%;
+	margin-left: 1%;
+}
+
+#simplemarketing .flexcontainer2 {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   margin-top: 15px;
+}
+
+#simplemarketing section.one {
+	width: 32%;
+}
+
+#simplemarketing section.two {
+	width: 32%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#simplemarketing section.three {
+	width: 32%;
+}
+
+/*Using Flexbox: Marketing with Nav*/
+
+#marketingnav footer,
+#marketingnav aside,
+#marketingnav section {
+	background-color: #FEB45C;
+	min-height: 100px;
+}
+
+#marketingnav footer {
+	margin-top: 15px;
+}
+
+#marketingnav .flexcontainer1 {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   margin-top: 15px;
+}
+
+#marketingnav .flexcontainer2 {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   margin-top: 15px;
+}
+
+#marketingnav .flexcontainer3 {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   margin-top: 15px;
+}
+
+#marketingnav section.oneA {
+	width: 20%;
+}
+
+#marketingnav section.twoA{
+	width: 10%;
+	margin-left: 54%;
+}
+
+#marketingnav section.threeA {
+	width: 10%;
+	margin-left: 2%;
+}
+
+#marketingnav section.fourA {
+	width: 10%;
+	margin-left: 2%;
+}
+
+#marketingnav section.fiveA {
+	width: 10%;
+	margin-left: 2%;
+}
+
+#marketingnav section.oneB {
+	width: 100%;
+}
+
+#marketingnav section.oneC {
+	width: 32%;
+}
+
+#marketingnav section.twoC {
+	width: 32%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#marketingnav section.threeC {
+	width: 32%;
+}
+
+/*Using Flexbox: Magazine*/
+
+#magazine footer,
+#magazine aside,
+#magazine section {
+	background-color: #FF9EB9;
+	min-height: 100px;
+}
+
+#magazine footer {
+	margin-top: 15px;
+}
+
+#magazine .flexcontainer1 {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   margin-top: 15px;
+}
+
+#magazine section.oneA {
+	width: 20%;
+}
+
+#magazine section.twoA{
+	width: 10%;
+	margin-left: 54%;
+}
+
+#magazine section.threeA {
+	width: 10%;
+	margin-left: 2%;
+}
+
+#magazine section.fourA {
+	width: 10%;
+	margin-left: 2%;
+}
+
+##magazine section.fiveA {
+	width: 10%;
+	margin-left: 2%;
+}
+
+.flexcontainer2 {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   height: 100%;
+}
+
+#magazine section.oneB {
+	width: 10%;
+	margin-top: 15px;
+}
+
+ .flexcontainer3 {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+}
+
+#magazine section.oneC {
+	width: 80%;
+}
