@@ -1,0 +1,84 @@
+
+h2 {
+	font-family: sans-serif;
+	color: #4F4101;
+}
+
+h3 {
+	font-family: sans-serif;
+	color: #666767;
+	margin: 0 10px;
+}
+
+* {
+	box-sizing: :border-box;
+	min-height: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Using Floats: Marketing with Nav*/
+
+
+header {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+header, h1, .col1A, .col2A, .col1, .col2, .col3, footer {
+	background: #C276FE;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header nav ul li {
+	float: left;
+	min-width: 30px;
+	min-height: 20px;
+	list-style: none;
+	margin-right: 10px;
+}
+
+#columnWrapper {
+	overflow: hidden;
+	margin: 0 10px;
+}
+
+#sectionWrapper {
+	overflow: hidden;
+}
+
+#row1, #row2 {
+	margin-bottom: 10px;
+}
+
+.col1A {
+	width: 50%;
+	float: left;
+}
+
+.col2A {
+	width: 46%;
+	margin-left: 4px;
+	float: left;
+	}
+
+.col1, .col2, .col3 {
+	width: 33%;
+	margin-right: .5%;
+	float: left;
+}
+
+.col3 {
+	margin-right: 0;
+	}
+
+footer {
+	margin-top: 10px;
+	margin: 0 10px;
+
+}
