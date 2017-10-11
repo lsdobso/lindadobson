@@ -72,12 +72,13 @@ body, html {
 #top {
   background: #033048;
   overflow: hidden;
-  padding: 20px;
+  padding: 30px;
 }
 
 header nav {
   float: right;
   background: #033048;
+  margin-top: 10px;
 }
 
 
@@ -85,7 +86,10 @@ header nav ul li {
   float: left;
   list-style: none;
   margin-right: 10px;
-    color:  #f9e42e;
+  color:  #f9e42e;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
     }
 
 
@@ -100,8 +104,9 @@ h1.logo {
 #main {
   float: left;
   width: 700px;
-  margin-right: 20px;
-  padding: 20px;
+  padding: 25px;
+  margin: auto;
+  height: 100%;
 }
 
 h2.posttitle {
@@ -133,6 +138,13 @@ p.readmore {
 
 }
 
+img.blogimage {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -141,7 +153,11 @@ hr {
 #sidebar {
   float: right;
   width: 220px;
-  padding: 20px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  height: 100%;
 }
 
 #aboutbox
@@ -152,25 +168,60 @@ hr {
 h2.sidebartitle1 {
   color: #033048;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 22px;
+  font-weight: 800;
+  font-size: 18px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
 }
 
 h2.sidebartitle2 {
   color: #033048;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 22px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 
+}
+
+p.sidebartext {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+}
+
+em.learnmorebold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+ul.sidebarlist {
+  color:  #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+
+}
+
+img.adimage {
+  padding-top: 30px;
+  width: 100%;
+  margin: auto;
+  height: 100%;
 }
 
 #signupbar {
   background: #f9e42e;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  padding: 20px;
 }
 
 button.signupclick {
@@ -190,6 +241,10 @@ button.signupclick {
 
 #bottom {
   background: #121212;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  padding: 20px;
 }
 
 footer {
@@ -197,7 +252,7 @@ footer {
   margin: 0 10px;
 }
 
-p.footerlogo {
+p.logofooter {
   color: #f9e42e;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
@@ -205,5 +260,25 @@ p.footerlogo {
   text-align: center;
   padding: 20px;
 }
+
+img.twitter {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+img.facebook {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+p.copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 20px;
+  }
 
 
