@@ -1,0 +1,81 @@
+body{
+     background-image:url('http://www.designbolts.com/wp-content/uploads/2012/11/3px-tile-tiny-dark-square-tiles-seamless-pattern.jpg');
+}
+
+a{
+     color:red;
+}
+
+a:hover{
+     color:purple;
+}
+
+
+header{
+     height:80px;
+}
+
+header>ol{
+     list-style: none;
+}
+
+footer{
+     text-align: right;
+}
+
+footer>#company-name{
+     font-weight: bold;
+}
+
+.groceryList{
+     width:200px;
+}
+
+#container {
+  padding: 20px;
+  margin: auto;
+}
+
+#container>img{
+     border:1px solid red;
+}
+
+#container>.col{
+     width:50%;
+}
+
+
+#main {
+  padding: 20px;
+  margin: auto;
+}
+
+#navigation-wrapper{
+     float:left;
+}
+
+
+#buttons-wrapper,
+#buttons-wrapper>form {
+     padding:10px;
+     border:1px solid black;
+}
+
+#buttons-wrapper{
+     background:orange;
+}
+
+#imageVoter{
+     margin-top: 50px;
+     width: 150px;
+}
+
+#container,
+#main {
+    "width": "960px";
+    "background":,"grey";
+    "color": "#fff";
+    "font-size": "14px";
+    "box-shadow": "0 0 10px #ccc";
+
+}
