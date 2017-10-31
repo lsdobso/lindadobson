@@ -23,7 +23,7 @@ Project URL: ____________________________________
 | Prevent a form submission using the ```event.preventDefault()``` function                                                     |                                |                        |                          |
 | Use the ```$.ready()``` handler to delay your code from executing until all DOM assets have been loaded                       |                                |                        |                          |
 | Get the first element from an attribute name using ```$.attr()```                                                             |                                |                        |                          |
-| Use the ```||``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code |                                |                        |                          |
+| Use the ```OR``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code |                                |                        |                          |
 | If a user submits "New York" or "New York City" or "NYC" make the background of the page nyc.jpg                              |                                |                        |                          |
 | If a user submits "San Francisco" or "SF" or "Bay Area" make the background of the page sf.jpg                                |                                |                        |                          |
 | If a user submits "Los Angeles" or "LA" or "LAX" make the background of the page la.jpg                                       |                                |                        |                          |
